@@ -80,3 +80,5 @@ The CSV file will be named in the format: `EmissionsReport_YYYYMMDD_HHMMSS.csv`.
 ## Conclusion
 This sample provides a practical guide to accessing Microsoft Sustainability Manager emissions data using Dataverse SDK in C#. It can be extended to fetch additional entities or integrate with other sustainability workflows.
 
+## IMPORTANT - Supportability Disclaimer
+This sample is provided as-is without any guarantees or warranties. It is intended for demonstration purposes only. Depending on how this code is extended, additional work may be required to ensure compliance with business requirements and best practices. Users should validate and test any modifications before deploying them to production environments.
