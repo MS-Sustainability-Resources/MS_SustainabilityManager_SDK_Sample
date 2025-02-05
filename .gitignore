@@ -1,0 +1,28 @@
+# Ignore Visual Studio-specific files
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.obj
+*.log
+
+# Ignore compiled binaries
+bin/
+obj/
+
+# Ignore NuGet Packages
+packages/
+
+# Ignore user-specific settings
+*.sln.ide
+*.sln.docstates
+
+# Ignore build artifacts
+*.dll
+*.exe
+
+# Ignore environment files (if using .NET Core)
+appsettings.json
+appsettings.Development.json
+secrets.json
