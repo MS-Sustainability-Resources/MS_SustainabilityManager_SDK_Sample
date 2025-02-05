@@ -17,11 +17,25 @@ LoginPrompt=Auto;
 ## SDK Used
 This project utilizes the **Microsoft.PowerPlatform.Dataverse.Client** SDK to interact with Dataverse. The SDK enables querying and retrieving data from the `msdyn_emission` entity, which stores emissions-related data in Microsoft Sustainability Manager.
 
-### Dependencies:
+## Dependencies
+The following dependencies are required to run this project:
 - `Microsoft.PowerPlatform.Dataverse.Client`
 - `Microsoft.Xrm.Sdk`
 - `Microsoft.Extensions.Configuration`
 - `CsvHelper`
+- `System.IO`
+- `System.Collections.Generic`
+- `System.Globalization`
+- `System.Threading.Tasks`
+
+### Dependencies Installation
+To install the required dependencies, use NuGet Package Manager:
+```sh
+Install-Package Microsoft.PowerPlatform.Dataverse.Client
+Install-Package Microsoft.Xrm.Sdk
+Install-Package Microsoft.Extensions.Configuration
+Install-Package CsvHelper
+```
 
 ## Functionality
 ### Steps Performed:
