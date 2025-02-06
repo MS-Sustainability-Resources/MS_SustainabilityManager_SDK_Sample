@@ -1,7 +1,7 @@
-# Microsoft Sustainability Manager SDK Sample
+# Microsoft Sustainability Manager SDK Code Sample
 
 ## Overview
-This sample demonstrates how to access Microsoft Sustainability Manager data using the Dataverse SDK and C# code. Specifically, it retrieves data from the `msdyn_emission` entity (Emission entity) and exports the output to a CSV file. This example is intended to help customers and partners who want to interact with Microsoft Sustainability Manager using C# code.
+This code sample demonstrates how to access Microsoft Sustainability Manager data using the Dataverse SDK and C# code. Specifically, it retrieves data from the `msdyn_emission` entity (Emission entity) and exports the output to a CSV file. This example is intended to help customers and partners who want to interact with Microsoft Sustainability Manager using C# code.
 
 ## Potential Scenarios
 This sample code provides a flexible foundation for scenarios where execution occurs outside Microsoft Sustainability Manager. Customers and partners can use it to read and write data across systems, integrate with Azure Functions and Logic Apps for automation, or facilitate point-to-point integrations. Whether embedding scripts for multi-product interactions or streamlining sustainability data workflows, this sample serves as a starting point for extending and optimizing sustainability solutions.
